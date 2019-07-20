@@ -1,0 +1,36 @@
+{
+  "name": "nuxt-health",
+  "version": "0.0.1",
+  "description": "Nuxt health check server middleware",
+  "main": "lib/module.js",
+  "scripts": {
+    "lint": "eslint --ext=.js lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YourSoftRun/nuxt-health.git"
+  },
+  "keywords": [
+    "nuxt",
+    "health",
+    "healthcheck"
+  ],
+  "author": "Hugo Meyronneinc <hugo@yoursoft.run>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YourSoftRun/nuxt-health/issues"
+  },
+  "homepage": "https://github.com/YourSoftRun/nuxt-health#readme",
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "engines": {
+    "node": ">= 8.x.x"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1"
+  }
+}
